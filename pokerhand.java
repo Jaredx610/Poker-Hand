@@ -11,7 +11,8 @@ import java.io.IOException;
  * Name: Jared McDonald
  * Instructor: Dr.Dunn
  * Class: CSC 241
- * Files Needed/Used: p1.dat
+ * Date created: 9/9/2014
+ * Files Needed/Used: phands.dat
  * Dictionary of variables:
  * input- A BufferedReader used to read a file
  * line- A string used to hold what BufferedReader has read
@@ -43,7 +44,7 @@ public class p1 {
 	}
 
 	private void newmain() throws IOException {//Called to use as main method instead
-		BufferedReader input = new BufferedReader(new FileReader("p1.dat"));//Where the input file is located
+		BufferedReader input = new BufferedReader(new FileReader("phands.dat"));//Where the input file is located
 		String line;//Declare a String variable
 		while((line = input.readLine()) != null){//While the predefined string is not null after reading from the FileReader
 			System.out.println("Hand: "+line); //Print what is read for confirmation and detail
