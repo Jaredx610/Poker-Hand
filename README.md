@@ -3,14 +3,17 @@ Java program that reads a hand of cards from an input file and calculates the to
 ## Getting Started
 
 The first thing the user needs to do is create a data file named p1.dat for the program to use. The format of the file should follow the following example:
+```
   #$ #$ #$ #$ and so on
+```
       # = rank of the card (1-10, A for Ace, J for Jack, Q for Queen, K for King)
       $ = suit of the card (C for clubs, D for diamonds, H for hearts, S for spades)
-...
+      Each line represents a hand
+```
 2H 6D %S 8S 7S 4D 3H 4S KS QH JH 5C 9S
 2C QD TC AD 6C 3D TD 3C 5H 7H AS JH KD QS
 2C QD TC AD 6C 3D TD 2C 5D 7H AS JH KD
-...
+```
 
 ### Prerequisites
 
