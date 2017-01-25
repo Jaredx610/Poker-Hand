@@ -2,7 +2,7 @@
 Java program that reads a hand of cards from an input file and calculates the total amount of points of those cards and if it is a valid hand.
 ## Getting Started
 
-The first thing the user needs to do is create a data file named p1.dat for the program to use. The format of the file should follow the following example:
+The first thing the user needs to do is create a data file named phands.dat for the program to use. The format of the file should follow the following example:
 ```
   #$ #$ #$ #$ and so on
 ```
@@ -14,7 +14,7 @@ The first thing the user needs to do is create a data file named p1.dat for the 
 2C QD TC AD 6C 3D TD 3C 5H 7H AS JH KD QS
 2C QD TC AD 6C 3D TD 2C 5D 7H AS JH KD
 ```
-
+phands.dat should be located locally with the program.
 ### Prerequisites
 
 Java compiler or Java IDE
